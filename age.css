@@ -96,14 +96,17 @@ footer {
   border-top: 1px solid #ccc;    
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
   .moth{
-    width: 350px;
+    width: 100px;
   }
   body{
     padding: 1px;
     border-radius: 5px;
     box-shadow: 0 0 5px 5px #11273a,
                 0 0 5px 5px #058181;
+  }
+  .container{
+    max-width: 500px;
   }
 }
