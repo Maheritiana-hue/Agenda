@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #1f2830,#29744e);
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 5px #11273a,
+                0 0 10px 5px #058181;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+#yearInput {
+    padding: 10px;
+    font-size: 16px;
+    background: linear-gradient(125deg,#094941,#10426d,#000);
+    color: aqua;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.month {
+    margin-top: 30px;
+    display: inline-block;
+    width: 400px;
+    background: white;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    margin: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.month h3 {
+    background-color: #4CAF50;
+    color: white;
+    margin: 0;
+    padding: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    width: 14.28%;
+    padding: 8px;
+    border: 1px solid red;
+}
+
+h1{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 3rem;
+  background: linear-gradient(90deg, yellow, orangered, blue );
+  background-size: 200% auto;
+  color: transparent;
+  -webkit-background-clip: text;
+  animation: wave 6s linear infinite;
+}
+
+@keyframes wave{
+  0%{
+     box-shadow:
+      0 0 5px 5px green,
+      0 0 5px 5px orange;
+    background-position: 0% center;
+  }
+  100%{
+    background-position: 200% center;
+  }
+}
+
+.p{
+  font-size: 18px;
+  color: #288da7;
+}
+
+footer {
+  background: #0daf9a;     
+  color: #333;                    
+  text-align: center;             
+  padding: 20px 10px;             
+  margin-top: 30px;               
+  font-size: 18px;  
+  font-style: italic;              
+  border-top: 1px solid #ccc;    
+}
+
+@media screen and (max-width: 600px) {
+  .moth{
+    width: 350px;
+  }
+  body{
+    padding: 1px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 5px #11273a,
+                0 0 5px 5px #058181;
+  }
+}
