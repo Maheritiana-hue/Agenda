@@ -98,7 +98,7 @@ footer {
 
 @media screen and (max-width: 500px) {
   .moth{
-    width: 100px;
+   max-width: 100px;
   }
   body{
     padding: 1px;
